@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Chat App</title>
+    <link rel="stylesheet" href="static/home.css">
+    <script type="application/javascript" defer src="{{url_for('static',filename='home.js')}}"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="Header">
+            <h1> Welcome to Vedant Chat App</h1>
+        </div>
+
+        <div class="user_form">
+            <div class="user_input_head">
+                <h3>Create a Chat room</h3>
+            </div>
+            <input id="name" placeholder="Enter Name">
+            <input id="roomId" placeholder="Enter roomid">
+            <button type="button" id="user_button">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
